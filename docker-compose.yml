@@ -35,10 +35,6 @@ services:
 
   database:
     image: postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: some-long-secure-password
-      POSTGRES_DB: myapp_development
 
     env_file:
       - .env/development/database
