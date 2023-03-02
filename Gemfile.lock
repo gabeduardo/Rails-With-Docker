@@ -98,9 +98,14 @@ GEM
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.1.4)
-    puma (3.12.1)
+
+    puma (4.3.12)
+      nio4r (~> 2.0)
+
     racc (1.6.1)
+
     rack (2.2.6.2)
+
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -196,7 +201,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (~> 1.0)
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.2)
   redis (~> 4.0)
   sass-rails (~> 5.0)
